@@ -1,5 +1,5 @@
 # marginotes
-Marginotes takes your jQuery selection and adds notes to the margin with the text provided in HTML attributes. You can see it working live at [my website](http://francisco.dance)
+Marginotes takes your jQuery selection, HTMLCollection, or Array of DOM elements and adds notes to the margin with the text provided in HTML attributes. You can see it working live at [my website](http://francisco.dance)
 
 ### Usage
 
@@ -12,7 +12,7 @@ Marginotes works by adding a `desc` attribute to an HTML element, which will be 
 ![marginotes](https://cloud.githubusercontent.com/assets/3707222/13412271/5434e920-df42-11e5-8c53-c1a4aa25663d.gif)
 
 ```javascript
-$("selector").marginotes(options)
+marginotes(document.querySelectorAll("selector"), options)
 ```
 
 It works with links, as well as with `<span>` elements:

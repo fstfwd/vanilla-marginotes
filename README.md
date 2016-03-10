@@ -1,5 +1,5 @@
-# marginotes
-Marginotes takes your jQuery selection, HTMLCollection, or Array of DOM elements and adds notes to the margin with the text provided in HTML attributes. You can see it working live at [my website](http://francisco.dance)
+# vanilla-marginotes
+Vanilla Marginotes is a vanilla Javscript fork of [Marginotes](https://github.com/fdansv/marginotes). Marginotes takes your jQuery selection, HTMLCollection, or Array of DOM elements and adds notes to the margin with the text provided in HTML attributes. You can see it working live at [a fork of the creator's website](http://mshenfield.github.io/fdansv.github.io/)
 
 ### Usage
 

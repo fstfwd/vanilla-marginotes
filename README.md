@@ -29,3 +29,9 @@ It works with links, as well as with `<span>` elements:
 *width*: sets the tooltip's width. Default is 100px.
 
 *field*: sets the html attribute to look for. Default is `desc`
+
+### License
+
+Copyright (c) 2016 Francisco Dans
+
+Licensed under the MIT license, see `LICENSE.md` for more information.

@@ -1,0 +1,29 @@
+{
+  "name": "marginotes",
+  "version": "0.1.0",
+  "description": "Quick, cool margin notes with jQuery",
+  "main": "marginotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdansv/marginotes.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "notes",
+    "margin"
+  ],
+  "author": {
+    "name": "Francisco Dans",
+    "email": "fdansv@gmail.com",
+    "url": "http://francisco.dance"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdansv/marginotes/issues"
+  },
+  "homepage": "https://github.com/fdansv/marginotes#readme"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-marginotes",
+  "version": "0.1.0",
+  "description": "Quick, cool margin notes",
+  "main": "marginotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshenfield/vanilla-marginotes.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "notes",
+    "margin",
+    "vanilla"
+  ],
+  "author": {
+    "name": "Max Shenfield",
+    "email": "shenfieldmax@gmail.com",
+    "url": "https://github.com/mshenfield"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mshenfield/vanilla-marginotes/issues"
+  },
+  "homepage": "https://github.com/mshenfield/vanilla-marginotes#readme"
+}

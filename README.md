@@ -1,5 +1,9 @@
 # marginotes
-Marginotes takes your jQuery selection and adds notes to the margin with the text provided in HTML attributes. You can see it working live at [my website](http://francisco.dance). If you don't want to use jQuery, there's also a [version of marginotes](https://github.com/mshenfield/vanilla-marginotes) without it.
+Marginotes takes your jQuery selection and adds notes to the margin with the text provided in HTML attributes. If you don't want to use jQuery, there's also a [version of marginotes](https://github.com/mshenfield/vanilla-marginotes) without it.
+
+### Who's using it
+* [My website](http://francisco.dance).
+* [My buddy Carlos Matallín](http://matall.in/posts/vietnam/)
 
 ### Usage
 

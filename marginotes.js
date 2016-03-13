@@ -1,22 +1,22 @@
 var marginotes = function (options) {
-  options = options || {};
-  var field = options.field || 'desc';
-  var spans = this.filter('span');
+  options = options || {}
+  var field = options.field || 'desc'
+  var spans = this.filter('span')
 
-  $('body').append('<div class="margintooltip" style="display: none;"></div>');
+  $('body').append('<div class="margintooltip" style="display: none;"></div>')
   spans.css({
     'border-bottom': '1px dashed #337ab7',
     'cursor': 'help'
-  });
+  })
   this.hover(function (e) {
-    var description = $(this).attr(field);
-    var parent = $(this.parentElement);
-    var position = parent.position();
-    var tooltip = $('.margintooltip');
-    var width = Math.min(options.width || 100, position.left);
+    var description = $(this).attr(field)
+    var parent = $(this.parentElement)
+    var position = parent.position()
+    var tooltip = $('.margintooltip')
+    var width = Math.min(options.width || 100, position.left)
 
     if (width < 60 || !description) {
-      return;
+      return
     }
 
     tooltip
@@ -36,13 +36,13 @@ var marginotes = function (options) {
       .fadeIn({
         duration:100,
         queue: false
-      });
+      })
   }, function () {
-    $('.margintooltip').stop();
+    $('.margintooltip').stop()
     $('.margintooltip').fadeOut({
       duration: 100
-    });
-  });
-};
+    })
+  })
+}
 
-window.jQuery.prototype.marginotes = window.$.prototype.marginotes = marginotes;
+window.jQuery.prototype.marginotes = window.$.prototype.marginotes = marginotes
